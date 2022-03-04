@@ -25,13 +25,28 @@ $sub-text:rgba(255, 255, 255, 0.55);
 .sec-sub{
     @include px-rem(18, 'fs');
     @include px-rem(30, 'lh');
-    
+    color: $sub-text;
+    font-weight: 400;
+}
+.text-24{
+    font-weight: 500;
+    @include px-rem(24, 'fs');
+    @include px-rem(36, 'lh');
+
+
+    color: rgba(255, 255, 255, 0.8);
+}
+.text-16{
+    @include px-rem(16, 'fs');
+    @include px-rem(30, 'lh');
+    font-weight: 400;
+    color: $sub-text
 }
 .text-14{
-    @include px-rem(14px, 'fs');
-    @include px-rem(30px, 'lh');
+    @include px-rem(14, 'fs');
+    @include px-rem(30, 'lh');
 }
 .footer-titles{
-    @include px-rem(20px, 'fs');
-    @include px-rem(30px, 'lh');
+    @include px-rem(20, 'fs');
+    @include px-rem(30, 'lh');
 }

@@ -1,0 +1,47 @@
+@import 'help';
+
+.sec-new-tools {
+    margin: 220px 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 57px;
+}
+.new__text {
+    margin-top: 40px;
+    align-self: flex-start;
+
+    .sec-title {
+    }
+    .sec-sub {
+        margin-top: 30px;
+    }
+    .btn{
+        width: fit-content;
+        margin-top: 60px;
+        padding: 15px 40px;
+    }
+}
+.new__tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    justify-self: right;
+}
+
+@media screen and (max-width:68.75em) {
+    .sec-new-tools{
+        grid-template-columns: 1fr;
+    }
+    .new__tools{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:47.375em) {
+    .new__tools{
+        grid-template-columns: 1fr;
+        .tool__card{
+            margin-top: 30px;
+        }
+        justify-self: center;
+    }
+}

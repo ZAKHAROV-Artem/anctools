@@ -1,7 +1,7 @@
 @import 'help';
 @import 'null-style';
 body{
-    font-family: 'Popins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.9);
 
@@ -12,17 +12,22 @@ body{
     max-width: 1224px;
     margin: 0 auto;
 }
+.btn{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .orange-btn{
     background-color: $orange;
     border-radius: 8px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .orange{
     color: $orange;
 }
 
 @import 'header';
-
+@import 'mos-pop-tools';
+@import 'sec-truth';
+@import 'sec-new-tools';
