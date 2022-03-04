@@ -1,0 +1,37 @@
+$backgroud:rgb(30,37,43);
+
+$orange:#FF6E30;
+$sub-text:rgba(255, 255, 255, 0.55);
+
+@mixin px-rem($px,$wtd) {
+    $res: $px / 16;
+    @if($wtd == 'fs'){
+        font-size: $res + rem;
+    } @else if($wtd == 'lh'){
+        line-height: $res + rem;
+    } @else{
+        max-width: $res + em;
+    }
+}
+
+.title-h1{
+    @include px-rem(50, 'fs');
+    line-height: 140%;
+}
+.sec-title{
+    @include px-rem(48, 'fs');
+    line-height: 130%;
+}
+.sec-sub{
+    @include px-rem(18, 'fs');
+    @include px-rem(30, 'lh');
+    
+}
+.text-14{
+    @include px-rem(14px, 'fs');
+    @include px-rem(30px, 'lh');
+}
+.footer-titles{
+    @include px-rem(20px, 'fs');
+    @include px-rem(30px, 'lh');
+}

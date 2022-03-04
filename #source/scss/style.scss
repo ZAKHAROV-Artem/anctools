@@ -1,0 +1,28 @@
+@import 'help';
+@import 'null-style';
+body{
+    font-family: 'Popins',sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+
+    background-color: $backgroud;
+
+}
+._container{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+.orange-btn{
+    background-color: $orange;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange{
+    color: $orange;
+}
+
+@import 'header';
+
