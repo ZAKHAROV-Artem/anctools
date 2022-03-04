@@ -371,7 +371,6 @@ body {
 }
 .sec-most-popular-tools .tools__slider {
    display: none;
-   overflow: hidden;
 }
 
 .tools__text {
