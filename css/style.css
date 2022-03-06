@@ -165,7 +165,6 @@ body {
    -webkit-box-pack: center;
        -ms-flex-pack: center;
            justify-content: center;
-   position: relative;
 }
 .menu__list .list__item {
    margin-right: 20px;
@@ -197,7 +196,7 @@ body {
    width: 200%;
    display: none;
    position: absolute;
-   top: 30px;
+   top: 100%;
    left: 0;
    background-color: white;
    color: gray;
