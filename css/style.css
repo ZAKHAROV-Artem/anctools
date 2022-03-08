@@ -168,7 +168,7 @@ body {
    -ms-grid-column: 3;
 }
 
-.header__burger img {
+.header__burger .burger__img {
    display: none;
 }
 .header__burger .burger__menu {
