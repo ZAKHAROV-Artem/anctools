@@ -345,7 +345,7 @@ body {
       -ms-grid-column-align: right;
           justify-self: right;
    }
-   .header__burger img {
+   .header__burger .burger__img {
       display: block;
    }
    .header__burger .burger__menu .menu__list {
