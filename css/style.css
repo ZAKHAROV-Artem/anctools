@@ -168,7 +168,7 @@ body {
    -ms-grid-column: 3;
 }
 
-.header__burger .burger__img {
+.header__burger {
    display: none;
 }
 .header__burger .burger__menu {
@@ -344,8 +344,6 @@ body {
    .header__burger {
       -ms-grid-column-align: right;
           justify-self: right;
-   }
-   .header__burger .burger__img {
       display: block;
    }
    .header__burger .burger__menu .menu__list {
