@@ -14,6 +14,7 @@
     }
     .sec-sub {
         margin-top: 30px;
+        margin-right: 10px;
     }
     .btn{
         width: fit-content;
@@ -39,9 +40,9 @@
 @media screen and (max-width:47.375em) {
     .new__tools{
         grid-template-columns: 1fr;
+        justify-self: center;
         .tool__card{
             margin-top: 30px;
         }
-        justify-self: center;
     }
 }

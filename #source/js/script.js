@@ -1,6 +1,13 @@
-$('.tools__slider').slick({
-    arrows:false,
-    dots:true,
-    autoplay:true,
-    autoplayDelay:6000
-});
+// Burger menu script
+burger_btn_show = document.querySelector(".burger__img");
+burger_btn_hide = document.querySelector(".burger__close");
+burger_menu     = document.querySelector(".burger__menu");
+
+burger_btn_show.addEventListener("click", function(){
+    burger_menu.style.top = 0;
+    burger_btn_show.style.display = 'none';
+})
+burger_btn_hide.addEventListener("click", function(){
+    burger_menu.style.top = '-50%';
+    burger_btn_show.style.display = 'block';
+})

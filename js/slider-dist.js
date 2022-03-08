@@ -1,0 +1,1 @@
+$(".tools__slider").slick({arrows:!1,dots:!0,autoplay:!0,autoplayDelay:6e3});
