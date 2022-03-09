@@ -45,6 +45,7 @@ $sub-text:rgba(255, 255, 255, 0.55);
 .text-14{
     @include px-rem(14, 'fs');
     @include px-rem(30, 'lh');
+    color: rgba(255, 255, 255, 0.55);
 }
 .footer-titles{
     @include px-rem(20, 'fs');

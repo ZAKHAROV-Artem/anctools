@@ -41,6 +41,7 @@
                 text-align: right;
             }
             .list__item{
+                width: fit-content;
                 margin-top: 25px;
                 .item__link{
                     font-size: 22px;
@@ -143,30 +144,30 @@
         margin-top: 30px;
     }
 
-    .main__form {
+}
+.main__form {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+    input[type="text"] {
+        background-color: #283036;
+        padding: 22px 111px 22px 20px;
+        border-radius: 15px 0 0 15px;
+        color: white;
+        height: 64px;
+    }
+
+    .form-submit-wrapper {
+        padding: 8px 11px;
+        height: 64px;
         display: flex;
         align-items: center;
-        margin-top: 60px;
+        background-color: #283036;
+        border-radius: 0 15px 15px 0;
 
-        input[type="text"] {
-            background-color: #283036;
-            padding: 22px 111px 22px 20px;
-            border-radius: 15px 0 0 15px;
-            color: white;
-            height: 64px;
-        }
-
-        .form-submit-wrapper {
-            padding: 8px 11px;
-            height: 64px;
-            display: flex;
-            align-items: center;
-            background-color: #283036;
-            border-radius: 0 15px 15px 0;
-
-            input {
-                padding: 12px 36px;
-            }
+        input {
+            padding: 12px 36px;
         }
     }
 }

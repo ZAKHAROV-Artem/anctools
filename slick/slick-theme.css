@@ -16,7 +16,7 @@
 }
 
 /* Arrows */
-.slick-prev,
+/* .slick-prev,
 .slick-next {
     font-size: 0;
     line-height: 0;
@@ -107,7 +107,7 @@
 
 [dir='rtl'] .slick-next:before {
     content: '←';
-}
+} */
 
 /* Dots */
 .slick-dotted.slick-slider {

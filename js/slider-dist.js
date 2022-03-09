@@ -1,1 +1,1 @@
-$(".tools__slider").slick({arrows:!1,dots:!0,autoplay:!0,autoplayDelay:6e3});
+$(".tools__slider").slick({arrows:!1,dots:!0,autoplay:!0,autoplayDelay:6e3}),$(".comment-slider-body").slick({arrows:!0,dots:!0,autoplay:!1,autoplayDelay:6e3});

@@ -26,8 +26,16 @@ body{
 .orange{
     color: $orange;
 }
-
+hr{
+    height: 0;
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+    margin-top: 100px;
+    margin-bottom: 73px;
+}
 @import 'header';
 @import 'mos-pop-tools';
 @import 'sec-truth';
 @import 'sec-new-tools';
+@import 'sec-comment-slider';
+@import 'sec-bec-contr';
+@import 'footer';
