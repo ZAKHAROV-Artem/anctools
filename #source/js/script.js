@@ -8,6 +8,6 @@ burger_btn_show.addEventListener("click", function(){
     burger_btn_show.style.display = 'none';
 })
 burger_btn_hide.addEventListener("click", function(){
-    burger_menu.style.top = '-50%';
+    burger_menu.style.top = '-500px';
     burger_btn_show.style.display = 'block';
 })
